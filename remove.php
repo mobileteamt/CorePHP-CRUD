@@ -1,7 +1,7 @@
 <?php
 //including the database connection file
 include_once("classes/Operations.php");
-
+//object to make the operation in database
 $operation = new Operations();
 
 //getting id of the data from url

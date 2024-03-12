@@ -3,7 +3,9 @@
 include_once("classes/Operations.php");
 include_once("classes/Validation.php");
 
+//object to make the operation in database
 $operation = new Operations();
+//object to validate the form data
 $validation = new Validation();
 
 if(isset($_POST['update']))

@@ -1,33 +1,7 @@
 <?php
 
 
-
-/*
-
-// mysql_connect("database-host", "username", "password")
-
-$conn = mysql_connect("localhost","root","root") 
-
-			or die("cannot connected");
-
-
-
-// mysql_select_db("database-name", "connection-link-identifier")
-
-@mysql_select_db("test",$conn);
-
-*/
-
-
-
-$mysqli = mysqli_connect("localhost", "ahaan", "ZIWNOU2TgnT", "po_database_enq_200899");
-
-
-
-//$res = mysqli_query($mysqli, "SELECT 'Please, do not use ' AS _msg FROM DUAL");
-
-//$row = mysqli_fetch_assoc($res);
-
+$mysqli = mysqli_connect("localhost", "username", "password", "database");
 	
 
 ?>

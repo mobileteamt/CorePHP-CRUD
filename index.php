@@ -5,7 +5,7 @@
 include_once("classes/Operations.php");
 
 
-
+// Database connection object creatation object
 $operation = new Operations();
 
 
@@ -16,7 +16,6 @@ $query = "SELECT * FROM users ORDER BY id DESC";
 
 $result = $operation->getData($query);
 
-//echo '<pre>'; print_r($result); exit;
 
 ?>
 

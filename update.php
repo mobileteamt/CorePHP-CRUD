@@ -1,14 +1,9 @@
 <?php
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 // including the database connection file
 
 include_once("classes/Operations.php");
 
-
-
+//object to make the operation in database
 $operation = new Operations();
 
 
